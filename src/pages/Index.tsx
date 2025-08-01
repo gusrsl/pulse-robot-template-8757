@@ -8,6 +8,9 @@ import DetailsSection from "@/components/DetailsSection";
 import ImageShowcaseSection from "@/components/ImageShowcaseSection";
 import Features from "@/components/Features";
 import Testimonials from "@/components/Testimonials";
+import Pricing from "@/components/Pricing";
+import FAQ from "@/components/FAQ";
+import Contact from "@/components/Contact";
 import Newsletter from "@/components/Newsletter";
 import MadeByHumans from "@/components/MadeByHumans";
 import Footer from "@/components/Footer";
@@ -69,6 +72,9 @@ const Index = () => {
         <ImageShowcaseSection />
         <Features />
         <Testimonials />
+        <Pricing />
+        <FAQ />
+        <Contact />
         <Newsletter />
         <MadeByHumans />
       </main>
