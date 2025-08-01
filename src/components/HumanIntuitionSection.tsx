@@ -10,20 +10,20 @@ const HumanIntuitionSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-left">
             <div className="pulse-chip mb-4">
-              <span>Human-Like Intuition</span>
+              <span>Intuición Humana</span>
             </div>
-            <h2 className="section-title mb-6">Beyond algorithms to true understanding</h2>
+            <h2 className="section-title mb-6">Más allá de algoritmos hacia la comprensión verdadera</h2>
             <p className="text-lg text-gray-700 mb-6">
-              Atlas goes beyond programmed responses to develop contextual awareness and
-              adaptive learning patterns that mirror human intuition. This enables natural
-              interactions that feel like working with a human colleague rather than a machine.
+              Atlas va más allá de respuestas programadas para desarrollar conciencia contextual y 
+              patrones de aprendizaje adaptativo que reflejan la intuición humana. Esto permite 
+              interacciones naturales que se sienten como trabajar con un colega humano en lugar de una máquina.
             </p>
             <ul className="space-y-4">
               {[
-                "Learns from human demonstrations and refines its approach over time",
-                "Anticipates needs based on situational awareness and past interactions",
-                "Adapts to changing environments without explicit reprogramming",
-                "Makes decisions with nuanced understanding of human preferences"
+                "Aprende de demostraciones humanas y refina su enfoque con el tiempo",
+                "Anticipa necesidades basándose en conciencia situacional e interacciones pasadas",
+                "Se adapta a entornos cambiantes sin reprogramación explícita",
+                "Toma decisiones con comprensión matizada de las preferencias humanas"
               ].map((item, index) => (
                 <li key={index} className="flex items-start">
                   <div className="mr-3 text-pulse-500">

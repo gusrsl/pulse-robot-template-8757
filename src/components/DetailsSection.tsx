@@ -22,12 +22,12 @@ const DetailsSection = () => {
 
     // Simple validation
     if (!formData.fullName || !formData.email) {
-      toast.error("Please fill in all required fields");
+      toast.error("Por favor completa todos los campos requeridos");
       return;
     }
 
     // Demo form submission
-    toast.success("Request submitted successfully!");
+    toast.success("¡Solicitud enviada exitosamente!");
 
     // Reset form
     setFormData({
@@ -48,7 +48,7 @@ const DetailsSection = () => {
             backgroundPosition: "center"
           }}>
               <h2 className="text-2xl sm:text-3xl font-display text-white font-bold">
-                The details
+                Los detalles
               </h2>
             </div>
             
@@ -58,7 +58,7 @@ const DetailsSection = () => {
             border: "1px solid #ECECEC"
           }}>
               <h3 className="text-lg sm:text-xl font-display mb-6 sm:mb-8">
-                Precision engineering meets adaptive intelligence
+                La ingeniería de precisión se encuentra con la inteligencia adaptativa
               </h3>
 
               <div className="space-y-4 sm:space-y-6">
@@ -70,7 +70,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Height:</span> 5'8"
+                      <span className="font-semibold text-base">Altura:</span> 1.73m
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Capacity:</span> 55lbs
+                      <span className="font-semibold text-base">Capacidad:</span> 25kg
                     </div>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Weight:</span> 140lbs
+                      <span className="font-semibold text-base">Peso:</span> 64kg
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Uptime:</span> 6hr
+                      <span className="font-semibold text-base">Autonomía:</span> 6h
                     </div>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Movement:</span> 1.5M/S
+                      <span className="font-semibold text-base">Movimiento:</span> 1.5M/S
                     </div>
                   </div>
                 </div>
@@ -139,10 +139,10 @@ const DetailsSection = () => {
             backgroundPosition: "center"
           }}>
               <div className="inline-block px-4 sm:px-6 py-2 border border-white text-white rounded-full text-xs mb-4">
-                Request a demo
+                Solicitar una demo
               </div>
               <h2 className="text-2xl sm:text-3xl font-display text-white font-bold mt-auto">
-                See it for yourself
+                Véelo por ti mismo
               </h2>
             </div>
             
@@ -158,7 +158,7 @@ const DetailsSection = () => {
                     name="fullName" 
                     value={formData.fullName} 
                     onChange={handleChange} 
-                    placeholder="Full name" 
+                    placeholder="Nombre completo" 
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pulse-500 focus:border-transparent" 
                     required 
                   />
@@ -170,7 +170,7 @@ const DetailsSection = () => {
                     name="email" 
                     value={formData.email} 
                     onChange={handleChange} 
-                    placeholder="Email address" 
+                    placeholder="Dirección de correo" 
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pulse-500 focus:border-transparent" 
                     required 
                   />
@@ -182,7 +182,7 @@ const DetailsSection = () => {
                     name="company" 
                     value={formData.company} 
                     onChange={handleChange} 
-                    placeholder="Company (optional)" 
+                    placeholder="Empresa (opcional)" 
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pulse-500 focus:border-transparent" 
                   />
                 </div>
@@ -192,7 +192,7 @@ const DetailsSection = () => {
                     type="submit" 
                     className="w-full px-6 py-3 bg-pulse-500 hover:bg-pulse-600 text-white font-medium rounded-full transition-colors duration-300"
                   >
-                    Request access
+                    Solicitar acceso
                   </button>
                 </div>
               </form>

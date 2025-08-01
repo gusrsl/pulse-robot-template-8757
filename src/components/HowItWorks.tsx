@@ -48,26 +48,26 @@ const HowItWorks = () => {
   const stepsData = [
     {
       number: "01",
-      title: "Request Access",
-      description: "Fill out the application form to join our early access program and secure your spot in line.",
+      title: "Solicitar Acceso",
+      description: "Completa el formulario de solicitud para unirte a nuestro programa de acceso anticipado y asegurar tu lugar en la fila.",
       image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80"
     },
     {
       number: "02",
-      title: "Personalization",
-      description: "We'll work with you to customize Atlas to your specific needs and preferences.",
+      title: "Personalización",
+      description: "Trabajaremos contigo para personalizar Atlas según tus necesidades y preferencias específicas.",
       image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80"
     },
     {
       number: "03",
-      title: "Integration",
-      description: "Atlas arrives at your location and is integrated into your living or working environment.",
+      title: "Integración",
+      description: "Atlas llega a tu ubicación y se integra en tu entorno de vida o trabajo.",
       image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80"
     },
     {
       number: "04",
-      title: "Adaptation",
-      description: "Through daily interaction, Atlas learns and adapts to your routines, preferences, and needs.",
+      title: "Adaptación",
+      description: "A través de la interacción diaria, Atlas aprende y se adapta a tus rutinas, preferencias y necesidades.",
       image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80"
     }
   ];
@@ -116,11 +116,11 @@ const HowItWorks = () => {
       <div className="section-container">
         <div className="text-center mb-16 opacity-0 fade-in-stagger">
           <div className="pulse-chip mx-auto mb-4">
-            <span>Process</span>
+            <span>Proceso</span>
           </div>
-          <h2 className="section-title mb-4">How Atlas Integrates Into Your Life</h2>
+          <h2 className="section-title mb-4">Cómo Atlas Se Integra en Tu Vida</h2>
           <p className="section-subtitle mx-auto">
-            A seamless four-step process from request to full integration.
+            Un proceso fluido de cuatro pasos desde la solicitud hasta la integración completa.
           </p>
         </div>
         

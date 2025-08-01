@@ -71,17 +71,17 @@ const Navbar = () => {
               scrollToTop();
             }}
           >
-            Home
+            Inicio
           </a>
-          <a href="#features" className="nav-link">About</a>
-          <a href="#details" className="nav-link">Contact</a>
+          <a href="#features" className="nav-link">Acerca de</a>
+          <a href="#details" className="nav-link">Contacto</a>
         </nav>
 
         {/* Mobile menu button - increased touch target */}
         <button 
           className="md:hidden text-gray-700 p-3 focus:outline-none" 
           onClick={toggleMenu}
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          aria-label={isMenuOpen ? "Cerrar menú" : "Abrir menú"}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -103,7 +103,7 @@ const Navbar = () => {
               document.body.style.overflow = '';
             }}
           >
-            Home
+            Inicio
           </a>
           <a 
             href="#features" 
@@ -113,7 +113,7 @@ const Navbar = () => {
               document.body.style.overflow = '';
             }}
           >
-            About
+            Acerca de
           </a>
           <a 
             href="#details" 
@@ -123,7 +123,7 @@ const Navbar = () => {
               document.body.style.overflow = '';
             }}
           >
-            Contact
+             Contacto
           </a>
         </nav>
       </div>
